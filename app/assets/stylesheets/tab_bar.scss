@@ -1,0 +1,38 @@
+.TabBar {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 16px;
+	display: table;
+	border-bottom: 1px solid gray;
+}
+
+.TabBar > ul {
+	display: table-cell;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.TabBar > ul > li {
+	float: left;
+	margin-right: 8px;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 8px;
+	text-transform: capitalize;
+}
+
+.TabBar > ul.AlignRight > li {
+	float: right;
+	margin-left: 8px;
+	margin-right: 0px;
+}
+
+.TabBar > ul > li.active {
+	border-bottom: 1px solid red;
+}
+
+.TabBar > ul.AlignRight > li.active {
+	color: #ff0077;
+	border-bottom: none;
+}

@@ -1,0 +1,92 @@
+.MovieGrid {
+	margin-top: 16px;
+}
+
+.MovieGrid > ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.MovieGrid > ul > li {
+	float: left;
+	position: relative;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	box-shadow: 1px 1px 5px gray;
+}
+
+.MovieGrid > ul:after {
+	display: block;
+	content: ' ';
+	clear: both;
+}
+
+.MovieGrid > ul > li > div:first-child {
+	background-image: image-url( "movie_demo.png" );
+	background-size: cover;
+	background-position: center;
+	width: 240px;
+	height: 360px;
+	position: relative;
+}
+
+.MovieGrid > ul > li > div:first-child > p {
+	color: white;
+	position: absolute;
+	left: 8px;
+	bottom: 8px;
+	margin: 0px;
+}
+
+.MovieGrid > ul > li > div:last-child {
+	background: white;
+	display: table;
+	width: 100%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.MovieGrid > ul > li > div:last-child > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.MovieGrid > ul > li > div:last-child > div:first-child {
+	padding-left: 8px;
+	margin: 0px;
+	text-align: left;
+	text-transform: capitalize;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+}
+
+.MovieGrid > ul > li > div:last-child > div > p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.MovieGrid > ul > li > div:last-child > div:last-child {
+	text-align: right;
+	padding-right: 8px;
+}
+
+.MovieGrid .MovieName {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.MovieGrid .MovieTag > span {
+	font-size: 12px;
+	margin-right: 5px;
+	color: gray;
+}
+
+.MovieGrid .MovieScore {
+	border: 1px solid #ff0077;
+	padding: 5px !important;
+	display: inline-block;
+}

@@ -1,0 +1,111 @@
+.Metadata {
+	position: absolute;
+	width: 80%;
+	margin-left: 10%;
+	bottom: 24px;
+}
+
+.Metadata > h1 {
+	text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+	line-height: 38px;
+	margin: 0px;
+}
+
+.Metadata > ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.Metadata > ul > li {
+	float: left;
+	margin-right: 8px;
+	color: white;
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+
+.Metadata > ul > li.divider {
+	width: 1px;
+	height: 20px;
+	background: white;
+}
+
+.Metadata > ul:after {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+.Metadata > .BtnGroup {
+	margin-top: 16px;
+	display: inline-block;
+}
+
+.Metadata > .BtnGroup > button {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 5px 8px;
+	color: white;
+	margin-right: 8px;
+}
+
+.WatchMovieBtn {
+	border: none;
+	text-transform: uppercase;
+	background: #ff0079;
+	margin-left: 0px;
+}
+
+.ViewInfoBtn {
+	text-transform: uppercase;
+	background: rgba( 255, 255, 255, 0 );
+	border: 1px solid white;
+}
+
+.AddToListBtn {
+	text-transform: uppercase;
+	border: none;
+	background: rgba( 255, 255, 255, 0 );
+	color: white;
+}
+
+.RatingOverview {
+	/*float: right;*/
+	display: inline-block;
+	position: absolute;
+	bottom: 8px;
+	right: 0px;
+	padding: 8px;
+	border: 0.5px solid gray;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.RatingOverview > p {
+	color: white;
+	margin: 0px;
+}
+
+.RatingOverview > p > span {
+	font-size: 12px;
+	color: gray;
+}
+
+.RatingOverview > ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.RatingOverview > ul > li {
+	float: left;
+	color: white;
+	margin-right: 8px;
+	color: #ff0079;
+}

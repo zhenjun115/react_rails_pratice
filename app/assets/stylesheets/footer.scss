@@ -1,0 +1,31 @@
+.Footer {
+	width: 80%;
+	margin-left: 10%;
+	display: table;
+	border-bottom: 0.5px solid gray;
+}
+
+.Footer > div {
+	display: table-cell;
+}
+
+.Footer > div:first-child > h1 {
+	text-transform: uppercase;
+	color: gray;
+	font-size: 24px;
+}
+
+.Footer > div:last-child > ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.Footer > div:last-child > ul > li {
+	float: right;
+	margin-left: 8px;
+	text-transform: capitalize;
+	color: gray;
+	font-size: 14px;
+	line-height: 20px;
+}
