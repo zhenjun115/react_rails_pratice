@@ -1,27 +1,35 @@
 .Footer {
 	width: 80%;
 	margin-left: 10%;
-	display: table;
-	border-bottom: 0.5px solid gray;
+	/*display: table;*/
 }
 
-.Footer > div {
+.Footer > div.row {
+	display: table;
+	width: 100%;
+}
+
+.Footer > div.row > div {
 	display: table-cell;
 }
 
-.Footer > div:first-child > h1 {
+.Footer > .row:first-child {
+	border-bottom: 0.5px solid gray;
+}
+
+.Footer > .row:first-child > div:first-child > h1 {
 	text-transform: uppercase;
 	color: gray;
 	font-size: 24px;
 }
 
-.Footer > div:last-child > ul {
+.Footer > .row:first-child > div:last-child > ul {
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
 }
 
-.Footer > div:last-child > ul > li {
+.Footer > .row:first-child > div:last-child > ul > li {
 	float: right;
 	margin-left: 8px;
 	text-transform: capitalize;
@@ -29,3 +37,5 @@
 	font-size: 14px;
 	line-height: 20px;
 }
+
+

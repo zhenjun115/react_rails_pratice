@@ -6,6 +6,7 @@ class Videos extends React.Component {
 				<Banner />
 				<TabBar />
 				<MovieGrid />
+				<Loading />
 				<Footer />
 			</div>
 		);
