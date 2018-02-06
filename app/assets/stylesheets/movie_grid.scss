@@ -13,8 +13,8 @@
 .MovieGrid > ul > li {
 	float: left;
 	position: relative;
-	margin-right: 8px;
-	margin-bottom: 8px;
+	margin-right: 16px;
+	margin-bottom: 16px;
 	box-shadow: 1px 1px 5px gray;
 }
 
@@ -39,6 +39,8 @@
 	left: 8px;
 	bottom: 8px;
 	margin: 0px;
+	font-size: 12px;
+	line-height: 20px;
 }
 
 .MovieGrid > ul > li > div:last-child {
@@ -67,6 +69,7 @@
 .MovieGrid > ul > li > div:last-child > div > p {
 	margin: 0px;
 	padding: 0px;
+	
 }
 
 .MovieGrid > ul > li > div:last-child > div:last-child {
@@ -76,16 +79,21 @@
 
 .MovieGrid .MovieName {
 	font-size: 14px;
-	line-height: 20px;
+	font-weight: bold;
+	line-height: 21px;
 }
 
 .MovieGrid .MovieTag > span {
 	font-size: 12px;
+	line-height: 20px;
 	margin-right: 5px;
 	color: gray;
 }
 
 .MovieGrid .MovieScore {
+	font-size: 12px;
+	font-weight: semibold;
+	color: #ff0077;
 	border: 1px solid #ff0077;
 	padding: 5px !important;
 	display: inline-block;

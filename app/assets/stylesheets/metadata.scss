@@ -8,8 +8,8 @@
 .Metadata > h1 {
 	text-transform: uppercase;
 	color: white;
-	font-size: 30px;
-	line-height: 38px;
+	font-size: 32px;
+	line-height: 48px;
 	margin: 0px;
 }
 
@@ -46,9 +46,10 @@
 }
 
 .Metadata > .BtnGroup > button {
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 20px;
-	padding: 5px 8px;
+	font-weight: bold;
+	padding: 8px 16px;
 	color: white;
 	margin-right: 8px;
 }
@@ -79,8 +80,8 @@
 	position: absolute;
 	bottom: 8px;
 	right: 0px;
-	padding: 8px;
-	border: 0.5px solid gray;
+	padding: 8px 16px;
+	border: 0.5px solid #dfdfdf;
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -92,6 +93,8 @@
 
 .RatingOverview > p > span {
 	font-size: 12px;
+	line-height: 20px;
+	margin-left: 6px;
 	color: gray;
 }
 

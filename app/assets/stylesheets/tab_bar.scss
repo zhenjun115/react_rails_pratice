@@ -3,7 +3,7 @@
 	margin-left: 10%;
 	margin-top: 16px;
 	display: table;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #dfdfdf;
 }
 
 .TabBar > ul {
@@ -17,7 +17,7 @@
 	float: left;
 	margin-right: 8px;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 21px;
 	padding: 8px;
 	text-transform: capitalize;
 }
@@ -29,7 +29,8 @@
 }
 
 .TabBar > ul > li.active {
-	border-bottom: 1px solid red;
+	color: #ff0077;
+	border-bottom: 1.5px solid #ff0077;
 }
 
 .TabBar > ul.AlignRight > li.active {

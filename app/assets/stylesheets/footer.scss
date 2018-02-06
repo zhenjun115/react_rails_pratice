@@ -14,13 +14,14 @@
 }
 
 .Footer > .row:first-child {
-	border-bottom: 0.5px solid gray;
+	border-bottom: 0.5px solid #dfdfdf;
 }
 
 .Footer > .row:first-child > div:first-child > h1 {
 	text-transform: uppercase;
 	color: gray;
 	font-size: 24px;
+	line-height: 36px;
 }
 
 .Footer > .row:first-child > div:last-child > ul {
@@ -34,13 +35,13 @@
 	margin-left: 8px;
 	text-transform: capitalize;
 	color: gray;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 20px;
 }
 
 .Footer > .row:last-child > div:first-child {
-	color: gray;
-	font-size: 14px;
+	color: #dfdfdf;
+	font-size: 12px;
 	line-height: 20px;
 }
 
