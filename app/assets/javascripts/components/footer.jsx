@@ -23,10 +23,10 @@ class Footer extends React.Component
 					</div>
 					<div>
 						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+							<li><i className="fa fa-facebook-f" aria-hidden="true"></i></li>
+							<li><i className="fa fa-pinterest-p" aria-hidden="true"></i></li>
+							<li><i className="fa fa-twitter" aria-hidden="true"></i></li>
+							<li><i className="fa fa-instagram" aria-hidden="true"></i></li>
 						</ul>
 					</div>
 				</div>
